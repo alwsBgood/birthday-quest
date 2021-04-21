@@ -1,0 +1,90 @@
+.grid {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 240px;
+
+    font-size: 26px;
+}
+
+.row {
+    display: flex;
+    height: 33.33333%;
+}
+
+.row-2 {
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+}
+
+.elem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.333333%;
+}
+
+.elem:nth-child(2) {
+    border-left: 4px solid #fff;
+    border-right: 4px solid #fff;
+}
+
+
+.prompt {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.prompt-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prompt-1 {
+    border-left: 4px solid #fff;
+    border-right: 4px solid #fff;
+    border-top: 4px solid #fff;
+}
+
+.prompt-2 {
+    border-bottom: 4px solid #fff;
+    border-right: 4px solid #fff;
+    border-top: 4px solid #fff;
+}
+
+.prompt-3 {
+    border-right: 4px solid #fff;
+    border-top: 4px solid #fff;
+}
+
+.prompt-4 {
+    border-left: 4px solid #fff;
+    border-right: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+}
+
+.prompt-5 {
+    border-right: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+}
+
+.prompt-6 {
+    border-left: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+    border-top: 4px solid #fff;
+}
+
+.prompt-7 {
+    border-left: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+}
+
+.prompt-8 {
+    border-left: 4px solid #fff;
+    border-top: 4px solid #fff;
+}
+
+.prompt-9 {
+    border: 4px solid #fff;
+}
