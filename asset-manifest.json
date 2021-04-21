@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/birthday-quest/static/css/main.527502d9.chunk.css",
+    "main.js": "/birthday-quest/static/js/main.f0980e6f.chunk.js",
+    "main.js.map": "/birthday-quest/static/js/main.f0980e6f.chunk.js.map",
+    "runtime-main.js": "/birthday-quest/static/js/runtime-main.aab8b047.js",
+    "runtime-main.js.map": "/birthday-quest/static/js/runtime-main.aab8b047.js.map",
+    "static/js/2.d5517ad7.chunk.js": "/birthday-quest/static/js/2.d5517ad7.chunk.js",
+    "static/js/2.d5517ad7.chunk.js.map": "/birthday-quest/static/js/2.d5517ad7.chunk.js.map",
+    "index.html": "/birthday-quest/index.html",
+    "static/css/main.527502d9.chunk.css.map": "/birthday-quest/static/css/main.527502d9.chunk.css.map",
+    "static/js/2.d5517ad7.chunk.js.LICENSE.txt": "/birthday-quest/static/js/2.d5517ad7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aab8b047.js",
+    "static/js/2.d5517ad7.chunk.js",
+    "static/css/main.527502d9.chunk.css",
+    "static/js/main.f0980e6f.chunk.js"
+  ]
+}
