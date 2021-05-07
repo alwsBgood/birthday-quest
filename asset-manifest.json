@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/birthday-quest/static/css/main.b0f553f4.chunk.css",
-    "main.js": "/birthday-quest/static/js/main.e0cc113b.chunk.js",
-    "main.js.map": "/birthday-quest/static/js/main.e0cc113b.chunk.js.map",
+    "main.js": "/birthday-quest/static/js/main.a0b25aa6.chunk.js",
+    "main.js.map": "/birthday-quest/static/js/main.a0b25aa6.chunk.js.map",
     "runtime-main.js": "/birthday-quest/static/js/runtime-main.aab8b047.js",
     "runtime-main.js.map": "/birthday-quest/static/js/runtime-main.aab8b047.js.map",
     "static/js/2.6d07803d.chunk.js": "/birthday-quest/static/js/2.6d07803d.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.aab8b047.js",
     "static/js/2.6d07803d.chunk.js",
     "static/css/main.b0f553f4.chunk.css",
-    "static/js/main.e0cc113b.chunk.js"
+    "static/js/main.a0b25aa6.chunk.js"
   ]
 }
