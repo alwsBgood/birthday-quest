@@ -10,7 +10,7 @@ function WelcomeScreen() {
     const action = (e) => {
         e.preventDefault();
 
-        if(value.trim().toLowerCase() === 'mellon') {
+        if(value.trim().toLowerCase() === 'mellon' || 'friend') {
             history.push('/df9ef054-83e0-44da-8f8f-dc571c840378')
         } else {
             setError();
@@ -25,7 +25,7 @@ function WelcomeScreen() {
                 I won't just give you a present.<br />
                 I'm giving you an opportunity to earn one.<br />
                 The only question is will you dare to try?<br />
-                Speak, friend, and enter.
+                Speak friend and enter.
             </div>
             <div className="item">
                 <form onSubmit={action}>
