@@ -1,7 +1,8 @@
-import { useHistory } from 'react-router-dom';
+import Pic1 from '../../images/pic1.jpg'
+import './style.css'
+import {useHistory} from "react-router-dom";
 import {useState} from "react";
 import useError from "../../hooks/useError";
-import './style.css'
 
 function Step3() {
     const history = useHistory();
@@ -11,8 +12,8 @@ function Step3() {
     const action = (e) => {
         e.preventDefault();
 
-        if(value.toLowerCase() === '6734') {
-            history.push('./')
+        if(value.toLowerCase() === '5187') {
+            history.push('/2fa20e38-af2d-11eb-8529-0242ac130003')
         } else {
             setError();
         }
@@ -20,7 +21,20 @@ function Step3() {
 
     return (
         <div className={`screen ${error ? 'error' : ''}`}>
-            <div className="item">Good one, want some coffee?</div>
+            <div className="item">
+                <div className="image-wrap">
+                    <img src={Pic1} alt="img1"/>
+                    <img src={Pic1} alt="img1"/>
+                </div>
+                <div className="image-wrap">
+                    <img src={Pic1} alt="img1"/>
+                    <img src={Pic1} alt="img1"/>
+                </div>
+                <div className="image-wrap">
+                    <img src={Pic1} alt="img1"/>
+                    <img src={Pic1} alt="img1"/>
+                </div>
+            </div>
 
             <div className="item">
                 <form onSubmit={action}>

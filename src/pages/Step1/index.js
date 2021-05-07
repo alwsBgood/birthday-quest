@@ -11,8 +11,8 @@ function Step1() {
     const action = (e) => {
         e.preventDefault();
 
-        if(value.toLowerCase() === 'giftwraps') {
-            history.push('./e6394ca4-b004-4907-a37b-20787ff40d0d')
+        if(value.trim().toLowerCase() === 'galadriel') {
+            history.push('/e6394ca4-b004-4907-a37b-20787ff40d0d')
         } else {
             setError();
         }
@@ -24,19 +24,19 @@ function Step1() {
             <div className="item">
                 <div className="grid">
                     <div className="row row-1">
-                        <div className="elem elem-1">W</div>
-                        <div className="elem elem-2">T</div>
-                        <div className="elem elem-3">A</div>
+                        <div className="elem elem-1">D</div>
+                        <div className="elem elem-2">A</div>
+                        <div className="elem elem-3">I</div>
                     </div>
                     <div className="row row-2">
-                        <div className="elem elem-4">I</div>
-                        <div className="elem elem-5">S</div>
+                        <div className="elem elem-4">A</div>
+                        <div className="elem elem-5">L</div>
                         <div className="elem elem-6">R</div>
                     </div>
                     <div className="row row-3">
-                        <div className="elem elem-7">F</div>
+                        <div className="elem elem-7">L</div>
                         <div className="elem elem-8">G</div>
-                        <div className="elem elem-9">P</div>
+                        <div className="elem elem-9">E</div>
                     </div>
                 </div>
             </div>

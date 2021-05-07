@@ -12,7 +12,7 @@ function Step2() {
         e.preventDefault();
 
         if(value.toLowerCase() === '6734') {
-            history.push('./fe69d4ce-586a-443c-8935-188060d9423e')
+            history.push('/fe69d4ce-586a-443c-8935-188060d9423e')
         } else {
             setError();
         }

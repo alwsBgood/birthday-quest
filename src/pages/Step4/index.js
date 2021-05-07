@@ -1,8 +1,9 @@
-import { useHistory } from 'react-router-dom';
+import './style.css'
+import {useHistory} from "react-router-dom";
 import {useState} from "react";
 import useError from "../../hooks/useError";
 
-function WelcomeScreen() {
+function Step4() {
     const history = useHistory();
     const [value, setValue] = useState('');
     const [error, setError] = useError();
@@ -10,8 +11,8 @@ function WelcomeScreen() {
     const action = (e) => {
         e.preventDefault();
 
-        if(value.trim().toLowerCase() === 'mellon') {
-            history.push('/df9ef054-83e0-44da-8f8f-dc571c840378')
+        if(value.toLowerCase() === '9657') {
+            history.push('/3f21bdc2-af2d-11eb-8529-0242fdf31425')
         } else {
             setError();
         }
@@ -20,21 +21,18 @@ function WelcomeScreen() {
     return (
         <div className={`screen ${error ? 'error' : ''}`}>
             <div className="item">
-                Welcome. <br />
-                So, I've heard it's your birthday?<br />
-                I won't just give you a present.<br />
-                I'm giving you an opportunity to earn one.<br />
-                The only question is will you dare to try?<br />
-                Speak, friend, and enter.
+
+                <div className="big-text">你好</div>
             </div>
+
             <div className="item">
                 <form onSubmit={action}>
                     <input type="text" value={value} onChange={e => setValue(e.target.value)}/>
-                    <button onClick={action}>Start</button>
+                    <button onClick={action}>Enter</button>
                 </form>
             </div>
         </div>
     );
 }
 
-export default WelcomeScreen;
+export default Step4;
