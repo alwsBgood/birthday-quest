@@ -1,4 +1,10 @@
-import Pic1 from '../../images/pic1.jpg'
+import Pic1 from '../../images/1.jpg'
+import Pic2 from '../../images/2.jpg'
+import Pic3 from '../../images/3.jpg'
+import Pic4 from '../../images/4.jpg'
+import Pic5 from '../../images/5.jpg'
+import Pic6 from '../../images/6.jpg'
+
 import './style.css'
 import {useHistory} from "react-router-dom";
 import {useState} from "react";
@@ -24,15 +30,15 @@ function Step3() {
             <div className="item">
                 <div className="image-wrap">
                     <img src={Pic1} alt="img1"/>
-                    <img src={Pic1} alt="img1"/>
+                    <img src={Pic2} alt="img1"/>
                 </div>
                 <div className="image-wrap">
-                    <img src={Pic1} alt="img1"/>
-                    <img src={Pic1} alt="img1"/>
+                    <img src={Pic3} alt="img1"/>
+                    <img src={Pic4} alt="img1"/>
                 </div>
                 <div className="image-wrap">
-                    <img src={Pic1} alt="img1"/>
-                    <img src={Pic1} alt="img1"/>
+                    <img src={Pic5} alt="img1"/>
+                    <img src={Pic6} alt="img1"/>
                 </div>
             </div>
 

@@ -10,7 +10,7 @@ function WelcomeScreen() {
     const action = (e) => {
         e.preventDefault();
 
-        if(value.trim().toLowerCase() === 'mellon' || 'friend') {
+        if(value.trim().toLowerCase() === 'mellon' || value.trim().toLowerCase() === 'friend') {
             history.push('/df9ef054-83e0-44da-8f8f-dc571c840378')
         } else {
             setError();
