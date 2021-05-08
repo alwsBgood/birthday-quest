@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/birthday-quest/static/css/main.b0f553f4.chunk.css",
-    "main.js": "/birthday-quest/static/js/main.a0b25aa6.chunk.js",
-    "main.js.map": "/birthday-quest/static/js/main.a0b25aa6.chunk.js.map",
+    "main.js": "/birthday-quest/static/js/main.d9b1dfd0.chunk.js",
+    "main.js.map": "/birthday-quest/static/js/main.d9b1dfd0.chunk.js.map",
     "runtime-main.js": "/birthday-quest/static/js/runtime-main.aab8b047.js",
     "runtime-main.js.map": "/birthday-quest/static/js/runtime-main.aab8b047.js.map",
     "static/js/2.6d07803d.chunk.js": "/birthday-quest/static/js/2.6d07803d.chunk.js",
@@ -10,12 +10,17 @@
     "index.html": "/birthday-quest/index.html",
     "static/css/main.b0f553f4.chunk.css.map": "/birthday-quest/static/css/main.b0f553f4.chunk.css.map",
     "static/js/2.6d07803d.chunk.js.LICENSE.txt": "/birthday-quest/static/js/2.6d07803d.chunk.js.LICENSE.txt",
-    "static/media/pic1.9873196c.jpg": "/birthday-quest/static/media/pic1.9873196c.jpg"
+    "static/media/1.403e8456.jpg": "/birthday-quest/static/media/1.403e8456.jpg",
+    "static/media/2.f40ba9d6.jpg": "/birthday-quest/static/media/2.f40ba9d6.jpg",
+    "static/media/3.8038cae8.jpg": "/birthday-quest/static/media/3.8038cae8.jpg",
+    "static/media/4.bc48a5ee.jpg": "/birthday-quest/static/media/4.bc48a5ee.jpg",
+    "static/media/5.5c2397e5.jpg": "/birthday-quest/static/media/5.5c2397e5.jpg",
+    "static/media/6.f369ddbe.jpg": "/birthday-quest/static/media/6.f369ddbe.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.aab8b047.js",
     "static/js/2.6d07803d.chunk.js",
     "static/css/main.b0f553f4.chunk.css",
-    "static/js/main.a0b25aa6.chunk.js"
+    "static/js/main.d9b1dfd0.chunk.js"
   ]
 }
